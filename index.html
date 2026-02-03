@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Valentine 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Funny NO sound -->
+  <audio id="noSound">
+    <source src="no.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Fake Loading Screen -->
+  <div class="loading" id="loading">
+    <div class="loader-heart">❤️</div>
+    <p>Processing your feelings… 💭</p>
+  </div>
+
+  <div class="container" id="app">
+    <div class="card">
+      <h1 id="question"></h1>
+      <div class="emoji" id="emoji">🥺</div>
+    </div>
+
+    <div class="actions">
+      <button id="yesBtn">YES ❤️</button>
+      <button id="noBtn">NO 🙃</button>
+    </div>
+
+    <p class="hint">tap once anywhere to start 🎵</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
